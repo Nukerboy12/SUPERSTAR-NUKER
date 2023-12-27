@@ -33,10 +33,6 @@ token = __config__["token"]
 os.system("cls") if os.name == "nt" else os.system("clear")
 
 
-
-
-
-
 __intents__ = discord.Intents.default()
 __intents__.members = True
 __proxies__, __client__, __config__, __threads__= cycle(open("proxies.txt", "r").read().splitlines()), commands.Bot(command_prefix="+", help_command=None, intents=__intents__), json.load(open("config.json", "r", encoding="utf-8")), 45
@@ -53,6 +49,12 @@ x444_art = """
        {} =============================== NR OP ==================================
       {}   NUKING RESIDENCEY | SuperstaR On Top Bxby .gg/nrop
       {} =============================== NR OP =================================={}                                   
+
+
+
+
+
+
 """.format("\x1b[38;5;17m", "\x1b[38;5;18m", "\x1b[38;5;19m", "\x1b[38;5;20m", "\x1b[38;5;21m", "\x1b[0m")
 options = """
               ╚╦╗                                                             ╔╦╝
