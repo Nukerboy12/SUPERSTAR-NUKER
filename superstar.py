@@ -34,9 +34,15 @@ os.system("cls") if os.name == "nt" else os.system("clear")
 
 __intents__ = discord.Intents.default()
 __intents__.members = True
-__proxies__, __client__, __config__, __threads__= cycle(open("proxies.txt", "r").read().splitlines()), commands.Bot(command_prefix="+", help_command=None, intents=__intents__), json.load(open("config.py", "r", encoding="utf-8")), 45
+__proxies__, __client__, __config__, __threads__= cycle(open("proxies.txt", "r").read().splitlines()), commands.Bot(command_prefix="+", help_command=None, intents=__intents__), json.load(open("config.json", "r", encoding="utf-8")), 45
 token = input("{}({}Superstar{}) Enter Token{}:{} ".format("\x1b[0m", "\x1b[38;5;122m", "\x1b[0m", "\x1b[38;5;122m", "\x1b[0m"))
 os.system("cls") if os.name == "nt" else os.system("clear")
+
+
+
+
+
+
 
 x444_art = """      
 {}░██████╗██╗░░░██╗██████╗░███████╗██████╗░░██████╗████████╗░█████╗░
